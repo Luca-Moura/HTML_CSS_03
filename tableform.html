@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <form action="#">
+            <table border="1">
+                <tr>
+                    <th colspan="2">
+                        Dados a serem preenchidos:</th>
+                </tr>
+
+                <tr>
+                    <td> Nome:</td>
+                    <td><input type="text"> </td>
+                </tr>
+
+                <tr>
+                    <td> E-mail: </td>
+                    <td><input type="text"> </td>
+                </tr>
+
+                <tr>
+                    <td> Data de nascimento:</td>
+                    <td> <input type="text"></td>
+                </tr>
+                <tr>
+                    <td> Estado: </td>
+                    <td><select name="UF" id="UF">
+                            <option value="RJ">RJ</option>
+                            <option value="SP">SP</option>
+                            <option value="ES">ES</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td> Gênero: </td>
+                    <td>
+                        <input value="Masculino" type="radio" name="Gênero" id="Gênero"> Masculino
+                        &nbsp;
+                        <input value="Feminino" type="radio" name="Gênero" id="Gênero"> Feminino
+                        &nbsp;
+                        <input value="Outro" type="radio" name="Gênero" id="Gênero"> Outro
+                    </td>
+                </tr>
+                <tr>
+                    <td> Idade: </td>
+                    <td><input type="checkbox" name="Idade" id="Idade" value="Novo"> Novo
+                        &nbsp;
+                        <input type="checkbox" name="Idade" id="Idade" value="Velho"> Velho
+                        &nbsp;
+                        <input type="checkbox" name="Idade" id="Idade" value="Carrancudo"> Carrancudo
+                    </td>
+                </tr>
+                <tr>
+                    <td> Endereço: </td>
+                    <td><textarea name="Endereco" id="Endereco"></textarea></td>
+                </tr>
+                <tr><th colspan="2"> <input type="submit" value="Enviar"> &nbsp; &nbsp; <input type="reset" value="Limpar"> </th></tr>
+            </table>
+        </form>
+    </main>
+
+</body>
+
+</html>
